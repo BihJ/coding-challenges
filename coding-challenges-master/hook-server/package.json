@@ -1,0 +1,14 @@
+{
+  "name": "hook-server",
+  "version": "1.0.0",
+  "description": "hook server coding challenge",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "node test.js"
+  },
+  "author": "Leonard Puhl",
+  "license": "ISC",
+  "dependencies": {
+  }
+}
