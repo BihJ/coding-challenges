@@ -107,28 +107,25 @@ public class Main {
         utilities.printSurfaceArea(building);
         utilities.printResidents(building);
 
+        // nested rooms...
+        Room room0 = new Room();
+        Room.Subroom room1 = room0.new Subroom();
+
+        Room.Subroom room2 = room1.new Subroom();
+        System.out.println(room0);
+        System.out.println(room1);
+        System.out.println(room2);
+
+        Apartment.AppRoom rooma = new Apartment.AppRoom();
+        Apartment.AppRoom.AppRoom roomb = rooma.new Apartment.AppRoom();
+        Apartment.AppRoom roomc = roomb.new com.example.demo.Apartment.Room();
+
+        System.out.println(rooma);
+        System.out.println(roomb);
+        System.out.println(roomc);
+
     }
 
 
 
 }
-/*
-
-Task 2: Instances
-
-        Instantiate a building that has different properties (apartments, residents, and so on). Create several apartments in that building. You are free to choose the exact properties, but you should ensure diversity. In particular, make sure that the following constraints are fulfilled:
-
-        The building has at least three apartments
-        there are residents who have rented several apartments
-        some residents own cars
-        some apartments have parking spaces assigned
-        Task 3: Print
-
-        Write a function that accepts a building and outputs it to the console. Make sure to output all (sub-)properties and classes and their values. Ensure that the data is displayed clearly arranged.
-
-        Task 3b: Calculate & Print Area
-
-        Write a function that calculates the overall surface area of the building. Balcony areas are included in the calculation with the factor 0.5. Attic apartments are included in the calculation with a factor of 0.75. Display the result in the console.
-*/
-
-

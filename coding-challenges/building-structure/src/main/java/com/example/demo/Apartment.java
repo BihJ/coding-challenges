@@ -3,6 +3,9 @@ package com.example.demo;
 import java.util.ArrayList;
 
 public abstract class Apartment {
+    public static class AppRoom {
+        String roomname;
+    }
     int apartmentsurfacearea = -1; // given in m²
     int apartmentnumber = -1;
     String apartmentlocation = new String();
